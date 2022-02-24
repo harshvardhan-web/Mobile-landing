@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <style>
+        #ol-table, #ol-table td, #ol-table th, #ul-table, #ul-table td, #ul-table th, #img-table, #img-table td, #img-table th{
+            border: 1px solid;
+        }
+    </style>
+
+    <h1>An Odered List</h1>
+    <table id="ol-table">
+        <tr>
+            <th>Ordered Lists - Type 1</th>
+            <th>Ordered Lists - Type 2</th>
+            <th>Ordered Lists - Type 3</th>
+            <th>Ordered Lists - Type 4</th>
+            <th>Ordered Lists - Type 5</th>
+            <th>Ordered Lists - Different start</th>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="I">
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="i">
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="A">
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="a">
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol start="4" type="i">
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <h1>A Description List</h1>
+    <table>
+        <tr>
+            <td>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>-This stands for HyperText Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>-This stands for Cascading Style Sheet</dd>
+                </dl>
+            </td>
+        </tr>
+    </table>
+
+    <h1>An Unordered List</h1>
+    <table id="ul-table">
+        <tr>
+            <th>Unordered List - Type 1</th>
+            <th>Unordered List - Type 2</th>
+            <th>Unordered List - Type 3</th>
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type: disc;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type: square;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type: circle;">
+                    <li>Beetroot</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                    <li>Radish</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h1>Media Elements</h1>
+    <table style="width: 20%;" id="img-table">
+        <tr>
+            <th style="width: 10%;">Image</th>
+            <th style="width: 10%;">Progress Bar</th>
+        </tr>
+        <tr style="max-height: 200px;">
+            <td style="max-width: 10%;">
+                <img src="flower.jpg" alt="" style="width: 100%; height: 60px;">
+            </td>
+            <td style="max-width: 10%;">
+                <progress max="100" value="30"></progress>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
